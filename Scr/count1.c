@@ -1,3 +1,4 @@
+// One method of counting sum of array's items 
 #include "count.h"
 #include "count1.h"
 
