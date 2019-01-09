@@ -1,7 +1,7 @@
 // One method of counting sum of array's items 
 #include "count.h"
 #include "count1.h"
-
+#include <stdio.h>
 
 unsigned int ScitajPole1( unsigned char Velkost, unsigned char *Pole)
 {
@@ -15,5 +15,13 @@ unsigned int ScitajPole1( unsigned char Velkost, unsigned char *Pole)
     }while(pt_Koniec >= Pole);
 
     return Suma;
+}
+
+//some support function
+unsigned int Random(void)
+{
+   /* set the seed */
+   srand( (unsigned)time( NULL ) );
+   return rand();
 }
 
