@@ -1,6 +1,8 @@
 #include "count.h"
 #include "count1.h"
 #include "count2.h"
+#include <stdio.h>
+
 
 unsigned char Pole[] = {1,2,3,4,5,6,7,8,9,10};
 
