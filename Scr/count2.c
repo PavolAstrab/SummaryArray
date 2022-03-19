@@ -1,5 +1,5 @@
 #include "count.h"
-#include "count1.h"
+#include "count2.h"
 
 
 unsigned int ScitajPole2( unsigned char Velkost, unsigned char *Pole)
